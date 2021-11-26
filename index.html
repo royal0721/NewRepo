@@ -6,21 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab</title>
     <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
         .purple{
             color:purple;
         }
-        #first span{
+        #second span{
             color:black;
             font-style: italic;
+            font-weight: bold;
         }
+        p{
+            font-style: inherit;
+            font-size: 15px;
+        }
+        
     </style>
 </head>
 <body>
-    <div id="first">
+    <div id="first" style="font-style: normal;">
         <h1 class="purple">Deitel & Associates, Inc.</h1>
         <p>Deitel & Associates, Inc. is an authoring and corporate training organization specializing in programming languages. </p>
     </div>
-    <div id="second">
+    <div id="second" style="font-style: normal;">
         <h1>Clients</h1>
         <p class="purple">The company's clients include many <span>Fortune 1000 companies</span>, branches of military and business organizations.</p>
     </div>
