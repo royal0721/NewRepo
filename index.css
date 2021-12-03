@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.purple{
+    color:purple;
+}
+#second span{
+    color:black;
+    font-style: italic;
+    font-weight: bold;
+}
+#second span:hover{
+    color:red;
+}
+p{
+    font-style: inherit;
+    font-size: 15px;
+    padding-left:20px;
+}
+#first,#second{
+    font-style: normal;
+    padding: 20px;
+}
+.sample{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+#top{
+    background-color: rgb(168, 91, 184);
+}
+#bottom{
+    background-color: rgb(255, 147, 255);
+    position: relative;
+    top: -30px;
+    left: 10px;
+}
+#top2{
+    background-color: rgb(168, 91, 184);
+    position:absolute;
+    top:0px;
+    left:100px;
+    z-index: 2;
+}
+#bottom2{
+    background-color: rgb(255, 147, 255);
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    z-index: 1;
+}
+
+#bottom-image{
+    background-image: url(/itzy.jpg);
+    width: 60%;
+    height: 200px;
+    background-position: right bottom;
+    position: absolute;
+    top:10px;
+    right:0px;
+}
